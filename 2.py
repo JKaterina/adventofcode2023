@@ -40,3 +40,19 @@ for line in read_input('2'):
         sum_of_game_indx += game_index
 
 print("Answer to part 1: ", sum_of_game_indx)
+
+### Part 2 ###
+final_sum = 0
+for line in read_input('2'):    
+
+    multiplication_of_max_values = 1
+    # find the maximum value per color and multiply them
+    for color in benchmarks.keys():
+        pattern = fr'(\d+) {color}'
+        # find all matches per color and translate to integers	
+        max_value = max([int(x) for x in re.findall(pattern, line)])
+        multiplication_of_max_values *= max_value
+    
+    final_sum += multiplication_of_max_values
+
+print("Answer to part 2: ", final_sum)
