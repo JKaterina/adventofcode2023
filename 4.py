@@ -35,11 +35,6 @@ for line in read_input('4'):
 for line in read_input('4'):
     # get the line index
     line_index = int(re.findall(r'\d+', line)[0])
-    # # initialize the counter for the line
-    # if line_index in counter_dict:
-    #     counter_dict[line_index] += 1
-    # else:
-    #     counter_dict[line_index] = 1
         
     # split the line into two lists
     winning_numbers = [int(x) for x in line.split(':')[1].split('|')[0].split(' ') if x != '']
