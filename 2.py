@@ -16,7 +16,7 @@ benchmarks = {
 
 sum_of_game_indx = 0
 for line in read_input('2'):    
-
+    # separate the sets
     sets = line.split(';')
     # game index to be summed
     game_index = int(re.findall(r'Game (\d+)', line)[0])

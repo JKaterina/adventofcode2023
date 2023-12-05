@@ -41,13 +41,17 @@ for x in range(rows):
                                 final_number += grid_array[new_row, new_col]
                                 new_col += 1
 
+                            while grid_array[new_row, new_col - 1].isdigit():
+                                new_col += 1
+                                # keep adding the numbers to the left until a non-digit is found
+
                             # Check positions to the right
                             while grid_array[new_row, new_col + 1].isdigit():
                                 final_number += grid_array[new_row, new_col + 1]
                                 new_col += 1
 
                             part_numbers.append(final_number)
-                            #break
+                            break
 
                     except IndexError:
                         continue
