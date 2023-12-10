@@ -10,4 +10,4 @@ Another year, another [Advent of Code](https://adventofcode.com/2023) was delive
 - [x] [Day 6](https://medium.com/@uljanova.jekaterina/advent-of-code-2023-day-6-with-python-solved-by-data-engineer-fcc3857994fc)
 - [x] [Day 7](https://medium.com/@uljanova.jekaterina/advent-of-code-2023-day-7-with-python-solved-by-data-engineer-42260f4f6bba)
 - [ ] Day 8
-- [ ] Day 9
+- [x] [Day 9](https://medium.com/@uljanova.jekaterina/advent-of-code-2023-day-9-with-python-solved-by-data-engineer-0cb02b472901)
